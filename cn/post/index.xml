@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on 猿类森林</title><link>http://www.doc360.top/cn/post/</link><description>Recent content in Posts on 猿类森林</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 15 Nov 2021 15:02:42 +0800</lastBuildDate><atom:link href="http://www.doc360.top/cn/post/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugo教程01-基础使用</title><link>http://www.doc360.top/cn/post/hugo/hugo%E6%95%99%E7%A8%8B01-%E5%9F%BA%E7%A1%80%E4%BD%BF%E7%94%A8/</link><pubDate>Mon, 15 Nov 2021 15:02:42 +0800</pubDate><guid>http://www.doc360.top/cn/post/hugo/hugo%E6%95%99%E7%A8%8B01-%E5%9F%BA%E7%A1%80%E4%BD%BF%E7%94%A8/</guid><description>Hugo 是什么？ Hugo 是由Go语言实现的静态站点生成框架。
+官网地址
+Github 官方源码 Gitee 源码
+如何安装 我使用的是Deepin系统，所以和Debain安装方式一样，也可以直接下载二进制deb包进行安装。
+sudo apt-get install hugo 使用Hugo建站 创建站点 # 在当前执行命令的目录下创建test_site目录并初始化为站点 $ hugo new site test_site 给站点添加主题 以下是使用git方式，需要安装git或者直接下载到themes也行，后期为了方便更新主题推荐使用git submodule 方式
+其他主题可以到这里选择： https://themes.gohugo.io/
+$ cd test_site/ $ git init $ git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke 把主题添加进配置 # 注意要加上“\”转义，或者直接使用文本编辑器在添加一行theme = &amp;#34;ananke&amp;#34; $ echo theme = \&amp;#34;ananke\&amp;#34; &amp;gt;&amp;gt; config.</description></item></channel></rss>
