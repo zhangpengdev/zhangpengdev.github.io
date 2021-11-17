@@ -1,2 +1,2 @@
 # zhangpengdev.github.io
-documents for evey you need
+documents that you need
